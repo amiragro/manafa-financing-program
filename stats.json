@@ -1,0 +1,35 @@
+{
+  "lastUpdate": "04/02/2026",
+  "stats": [
+    {
+      "id": "registeredSuppliers",
+      "label": "Total Registered Suppliers",
+      "subtitle": "Registered Suppliers",
+      "value": 0,
+      "target": 83,
+      "prefix": "",
+      "suffix": "",
+      "format": "number"
+    },
+    {
+      "id": "kycedSuppliers",
+      "label": "Total KYCed Suppliers",
+      "subtitle": "Registered Suppliers",
+      "value": 14,
+      "target": 29,
+      "prefix": "",
+      "suffix": "",
+      "format": "number"
+    },
+    {
+      "id": "financingAmount",
+      "label": "Total Financing Amount",
+      "subtitle": "Financing Amount",
+      "value": 166000000,
+      "target": 166000000,
+      "prefix": "",
+      "suffix": "",
+      "format": "currency"
+    }
+  ]
+}
