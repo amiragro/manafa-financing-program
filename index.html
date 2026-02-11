@@ -297,8 +297,8 @@
     <script>
         // ========== Configuration ==========
         const CONFIG = {
-            dataUrl: 'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzn5twtyt0o/b/manafaco/o/financing/local/SCFMonthlyTarget/scf_monthly_target.json', // Update this to your API endpoint
-            refreshInterval: 10 * 60 * 1000 // 10 minutes
+            dataUrl: 'https://objectstorage.me-jeddah-1.oraclecloud.com/n/axzn5twtyt0o/b/manafaco/o/financing/staging/SCFMonthlyTarget/scf_monthly_target.json', // Update this to your API endpoint
+            refreshInterval:  5 * 1000 // 10 seconds  // 10 minutes
         };
 
         // ========== Format Currency ==========
@@ -361,7 +361,7 @@
             // Initial load from JSON
             loadStats();
 
-            // Auto-refresh every 10 minutes
+            // Auto-refresh every 5 Seconds
             setInterval(loadStats, CONFIG.refreshInterval);
         });
     </script>
